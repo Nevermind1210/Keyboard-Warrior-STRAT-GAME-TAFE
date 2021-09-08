@@ -1,0 +1,433 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16225 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Kieran/Desktop/Games Unity/4Design-As2-KeyboardWarrior-IDKProductions/Keyboard-Warrior-STRAT-GAME-TAFE
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56858
+Successfully changed project path to: C:/Users/Kieran/Desktop/Games Unity/4Design-As2-KeyboardWarrior-IDKProductions/Keyboard-Warrior-STRAT-GAME-TAFE
+C:/Users/Kieran/Desktop/Games Unity/4Design-As2-KeyboardWarrior-IDKProductions/Keyboard-Warrior-STRAT-GAME-TAFE
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 21.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Kieran/Desktop/Games Unity/4Design-As2-KeyboardWarrior-IDKProductions/Keyboard-Warrior-STRAT-GAME-TAFE/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   26.21.14.3184
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001800 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 22.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.148 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000658 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.825 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.8 MB.
+System memory in use after: 56.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1541.
+Total: 1.580300 ms (FindLiveObjects: 0.135700 ms CreateObjectMapping: 0.042200 ms MarkObjects: 1.345600 ms  DeleteObjects: 0.055900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(809e824ad2087b246b91f944b0267230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(809e824ad2087b246b91f944b0267230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0713afda26e30aecf95129d7fe70e31c') in 0.007873 seconds
+  Import took 0.009518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b180786c10fcc37bed0d6ddec7fe4f18') in 0.014503 seconds
+  Import took 0.016041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.542784 seconds.
+  path: Assets/Scenes/Bedroom.unity
+  artifactKey: Guid(8a44546a91be71241aaff5ca415dbe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Bedroom.unity using Guid(8a44546a91be71241aaff5ca415dbe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6743ce3fa8f188d8952fb3688f5015d1') in 0.009094 seconds
+  Import took 0.011176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001649 seconds.
+  path: Assets/Scenes/Bedroom.unity
+  artifactKey: Guid(8a44546a91be71241aaff5ca415dbe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Bedroom.unity using Guid(8a44546a91be71241aaff5ca415dbe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6743ce3fa8f188d8952fb3688f5015d1') in 0.002649 seconds
+  Import took 0.004341 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000593 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.738 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.1 MB.
+System memory in use after: 58.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1557.
+Total: 1.539200 ms (FindLiveObjects: 0.137100 ms CreateObjectMapping: 0.033700 ms MarkObjects: 1.351800 ms  DeleteObjects: 0.015700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000835 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.883 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.4 MB.
+System memory in use after: 70.7 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1898.
+Total: 3.240300 ms (FindLiveObjects: 0.326900 ms CreateObjectMapping: 0.069400 ms MarkObjects: 1.670500 ms  DeleteObjects: 1.172600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1337.737627 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6e520b92ccfc61bcfa21a7bcab8468') in 0.008836 seconds
+  Import took 0.011015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.598529 seconds.
+  path: Assets/Keyboard Warrior
+  artifactKey: Guid(5a34d8be1dbd0cc46b08775113364243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Keyboard Warrior using Guid(5a34d8be1dbd0cc46b08775113364243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00844f6159ce4b3facd1d07997fbaceb') in 0.009349 seconds
+  Import took 0.011544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003174 seconds.
+  path: Assets/Keyboard Warrior
+  artifactKey: Guid(5a34d8be1dbd0cc46b08775113364243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Keyboard Warrior using Guid(5a34d8be1dbd0cc46b08775113364243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00844f6159ce4b3facd1d07997fbaceb') in 0.003951 seconds
+  Import took 0.006256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.594702 seconds.
+  path: Assets/Keyboard Warrior/Assets
+  artifactKey: Guid(ed88834ac6fe1a04fbf78cb2b37f98cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Keyboard Warrior/Assets using Guid(ed88834ac6fe1a04fbf78cb2b37f98cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a446ab5c0e71dedd9b62ad5397baa35f') in 0.002794 seconds
+  Import took 0.005722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.645873 seconds.
+  path: Assets/Keyboard Warrior/Scenes
+  artifactKey: Guid(5f2f85caa663e954e8735b3f4d40119d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Keyboard Warrior/Scenes using Guid(5f2f85caa663e954e8735b3f4d40119d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d3b6f4558b420286a5295a5ff76dcb') in 0.007184 seconds
+  Import took 0.009402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.228399 seconds.
+  path: Assets/Keyboard Warrior/Scripts
+  artifactKey: Guid(94d24258571665e4e9451e270a1603e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Keyboard Warrior/Scripts using Guid(94d24258571665e4e9451e270a1603e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627de98aa1544fc35926a3afa89fea4f') in 0.008107 seconds
+  Import took 0.010413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003162 seconds.
+  path: Assets/Keyboard Warrior/Scripts
+  artifactKey: Guid(94d24258571665e4e9451e270a1603e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Keyboard Warrior/Scripts using Guid(94d24258571665e4e9451e270a1603e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627de98aa1544fc35926a3afa89fea4f') in 0.002785 seconds
+  Import took 0.005079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.373913 seconds.
+  path: Assets/Keyboard Warrior/Dependancies
+  artifactKey: Guid(db9fbad16d60c7d40ad2557bf45b56ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Keyboard Warrior/Dependancies using Guid(db9fbad16d60c7d40ad2557bf45b56ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e0fa16aa19b6949732030150f66006') in 0.006739 seconds
+  Import took 0.009308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.917767 seconds.
+  path: Assets/Keyboard Warrior/New Folder
+  artifactKey: Guid(1f4bbc895f2436c4d8527d3411c11c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Keyboard Warrior/New Folder using Guid(1f4bbc895f2436c4d8527d3411c11c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14f3612ebd2ed44bc498a595725d86c') in 0.007220 seconds
+  Import took 0.009446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.111511 seconds.
+  path: Assets/Keyboard Warrior/Scenes/Bedroom.unity
+  artifactKey: Guid(8a44546a91be71241aaff5ca415dbe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Keyboard Warrior/Scenes/Bedroom.unity using Guid(8a44546a91be71241aaff5ca415dbe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511c657b7c4b6a967b11e4812b1f6bde') in 0.006830 seconds
+  Import took 0.009014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 408.153329 seconds.
+  path: Packages/com.unity.collab-proxy
+  artifactKey: Guid(1adad61bfb44214ee3e887b5febc4396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy using Guid(1adad61bfb44214ee3e887b5febc4396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58452d6faf1eb3abfa45f4a8710d6cb7') in 0.007010 seconds
+  Import took 0.010031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000606 seconds.
+  path: Packages/com.unity.collab-proxy
+  artifactKey: Guid(1adad61bfb44214ee3e887b5febc4396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy using Guid(1adad61bfb44214ee3e887b5febc4396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58452d6faf1eb3abfa45f4a8710d6cb7') in 0.001877 seconds
+  Import took 0.003886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.311915 seconds.
+  path: Packages/com.unity.ext.nunit
+  artifactKey: Guid(25a477c2f24db8778a4179421a32cc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit using Guid(25a477c2f24db8778a4179421a32cc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7811bf7144accb0b6529384c5356e68') in 0.005560 seconds
+  Import took 0.007704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.576825 seconds.
+  path: Packages/com.unity.collab-proxy/Editor
+  artifactKey: Guid(3eedd97b804f5a546a8817f8be60e318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor using Guid(3eedd97b804f5a546a8817f8be60e318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c9ef4a73a815a686b895ce607b1a2e') in 0.005968 seconds
+  Import took 0.008285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001103 seconds.
+  path: Packages/com.unity.collab-proxy/Editor
+  artifactKey: Guid(3eedd97b804f5a546a8817f8be60e318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor using Guid(3eedd97b804f5a546a8817f8be60e318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c9ef4a73a815a686b895ce607b1a2e') in 0.002000 seconds
+  Import took 0.004070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.268124 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets
+  artifactKey: Guid(2492c688529fd3141b14c0c9e69a8f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets using Guid(2492c688529fd3141b14c0c9e69a8f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ceb1c5a94e7396a6bb9650eaf65438c') in 0.002254 seconds
+  Import took 0.004380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005445 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets
+  artifactKey: Guid(2492c688529fd3141b14c0c9e69a8f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets using Guid(2492c688529fd3141b14c0c9e69a8f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ceb1c5a94e7396a6bb9650eaf65438c') in 0.001991 seconds
+  Import took 0.004134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.846247 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Assets/Icons
+  artifactKey: Guid(ffb86356b854ac446880553a18772ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Assets/Icons using Guid(ffb86356b854ac446880553a18772ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fb92b729eb46e81ea3567e991f3ab7') in 0.005583 seconds
+  Import took 0.007835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.100293 seconds.
+  path: Assets/Customizable_Furnture/BedroomScene
+  artifactKey: Guid(7d05e0385aab79a4ea3abd55409276b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/BedroomScene using Guid(7d05e0385aab79a4ea3abd55409276b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ea8ffaaaaf92dcaec5556cfb46f858') in 0.006542 seconds
+  Import took 0.008895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002744 seconds.
+  path: Assets/Customizable_Furnture/BedroomScene
+  artifactKey: Guid(7d05e0385aab79a4ea3abd55409276b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/BedroomScene using Guid(7d05e0385aab79a4ea3abd55409276b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ea8ffaaaaf92dcaec5556cfb46f858') in 0.002478 seconds
+  Import took 0.004822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.083020 seconds.
+  path: Assets/Customizable_Furnture/BedroomScene/CleanedUp_Bedroom.unity
+  artifactKey: Guid(aecf5bd1f3b0ba44c90e8f7f95abba03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/BedroomScene/CleanedUp_Bedroom.unity using Guid(aecf5bd1f3b0ba44c90e8f7f95abba03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda2421749ed3a52f870cd8cb16ded89') in 0.006248 seconds
+  Import took 0.008436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001575 seconds.
+  path: Assets/Customizable_Furnture/BedroomScene/CleanedUp_Bedroom.unity
+  artifactKey: Guid(aecf5bd1f3b0ba44c90e8f7f95abba03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/BedroomScene/CleanedUp_Bedroom.unity using Guid(aecf5bd1f3b0ba44c90e8f7f95abba03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda2421749ed3a52f870cd8cb16ded89') in 0.002437 seconds
+  Import took 0.004503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.320000 seconds.
+  path: Assets/Customizable_Furnture/BedroomScene/Editable_Bedroom.unity
+  artifactKey: Guid(65605f0aab39c994bb548150b5df0a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/BedroomScene/Editable_Bedroom.unity using Guid(65605f0aab39c994bb548150b5df0a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad53cef68a415bd5b9cc480d80f74dc') in 0.006693 seconds
+  Import took 0.008916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001308 seconds.
+  path: Assets/Customizable_Furnture/BedroomScene/Editable_Bedroom.unity
+  artifactKey: Guid(65605f0aab39c994bb548150b5df0a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/BedroomScene/Editable_Bedroom.unity using Guid(65605f0aab39c994bb548150b5df0a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad53cef68a415bd5b9cc480d80f74dc') in 0.002246 seconds
+  Import took 0.004352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.328684 seconds.
+  path: Assets/Customizable_Furnture/BedroomScene/CleanedUp_Bedroom
+  artifactKey: Guid(172495bee1b86e140bc33859c3d84dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable_Furnture/BedroomScene/CleanedUp_Bedroom using Guid(172495bee1b86e140bc33859c3d84dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09de5717a10eb23b7a6750468ac1a8e') in 0.005767 seconds
+  Import took 0.007893 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000888 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.920 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1467 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.5 MB.
+System memory in use after: 70.8 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1900.
+Total: 3.113900 ms (FindLiveObjects: 0.193200 ms CreateObjectMapping: 0.052700 ms MarkObjects: 1.615400 ms  DeleteObjects: 1.251300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000919 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.880 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1453 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.3 MB.
+System memory in use after: 70.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 1891.
+Total: 3.895100 ms (FindLiveObjects: 0.465500 ms CreateObjectMapping: 0.148500 ms MarkObjects: 1.936100 ms  DeleteObjects: 1.343800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.408085 seconds.
+  path: Assets/Keyboard Warrior/Scenes/Bedroom.unity
+  artifactKey: Guid(8a44546a91be71241aaff5ca415dbe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Keyboard Warrior/Scenes/Bedroom.unity using Guid(8a44546a91be71241aaff5ca415dbe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7759ea52c296f3aa98296041f27870') in 0.010623 seconds
+  Import took 0.013082 seconds .
+
