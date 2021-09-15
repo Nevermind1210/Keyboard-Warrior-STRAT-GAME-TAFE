@@ -15,11 +15,11 @@ C:/Users/danny/OneDrive/Documents/GitHub/Keyboard-Warrior-STRAT-GAME-TAFE
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59332
+62632
 Successfully changed project path to: C:/Users/danny/OneDrive/Documents/GitHub/Keyboard-Warrior-STRAT-GAME-TAFE
 C:/Users/danny/OneDrive/Documents/GitHub/Keyboard-Warrior-STRAT-GAME-TAFE
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 25.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.06 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,120 +35,128 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001996 seconds.
+Registered in 0.002267 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 30.00 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 24.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.371 seconds
+- Completed reload, in  1.269 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000807 seconds.
+Registered in 0.000766 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.223 seconds
+- Completed reload, in  0.960 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.4 MB.
-System memory in use after: 56.5 MB.
+System memory in use before: 56.5 MB.
+System memory in use after: 56.6 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1541.
-Total: 1.865400 ms (FindLiveObjects: 0.133600 ms CreateObjectMapping: 0.041800 ms MarkObjects: 1.624600 ms  DeleteObjects: 0.064200 ms)
+Total: 1.794900 ms (FindLiveObjects: 0.130900 ms CreateObjectMapping: 0.042500 ms MarkObjects: 1.519300 ms  DeleteObjects: 0.091000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Angelo's Stuff/chair.fbx
+  path: Assets/Angelo's Stuff/Chair.fbx
   artifactKey: Guid(684eb6f8e7306fc4fa5d81a393736183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Angelo's Stuff/chair.fbx using Guid(684eb6f8e7306fc4fa5d81a393736183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf01c89dc30db11e7f73774b9dabe6b') in 0.383875 seconds
-  Import took 0.386209 seconds .
+Start importing Assets/Angelo's Stuff/Chair.fbx using Guid(684eb6f8e7306fc4fa5d81a393736183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8095fca760a52c4cd6b22f7debafb17c') in 0.161854 seconds
+  Import took 0.164138 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Angelo's Stuff/mouse.fbx
+  Time since last request: 0.000218 seconds.
+  path: Assets/Angelo's Stuff/Mouse.fbx
   artifactKey: Guid(fad891b8373b3804393444cc803c5278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Angelo's Stuff/mouse.fbx using Guid(fad891b8373b3804393444cc803c5278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e477653e7b61933add6e2c23c5cac822') in 0.022190 seconds
-  Import took 0.023991 seconds .
+Start importing Assets/Angelo's Stuff/Mouse.fbx using Guid(fad891b8373b3804393444cc803c5278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94b6531ef65d3b2d64017ff0f2d4dba') in 0.023551 seconds
+  Import took 0.025402 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000215 seconds.
+  Time since last request: 0.000237 seconds.
   path: Assets/Angelo's Stuff/Monitor.fbx
   artifactKey: Guid(d2259f8e2f498b640b0e20340509e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Angelo's Stuff/Monitor.fbx using Guid(d2259f8e2f498b640b0e20340509e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210e964bfb3898ee31267c64007ab8ea') in 0.025447 seconds
-  Import took 0.027266 seconds .
+Start importing Assets/Angelo's Stuff/Monitor.fbx using Guid(d2259f8e2f498b640b0e20340509e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fde98a01dd579314ab7f38c47a836ab') in 0.022111 seconds
+  Import took 0.024123 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Angelo's Stuff/PC.fbx
-  artifactKey: Guid(0d774f3ce6b117949a4c7f60aeb29a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Angelo's Stuff/PC.fbx using Guid(0d774f3ce6b117949a4c7f60aeb29a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa7141e307caecbfc2a5a54ca8eaf3d') in 0.023320 seconds
-  Import took 0.025230 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Angelo's Stuff/keyboard.fbx
+  Time since last request: 0.000299 seconds.
+  path: Assets/Angelo's Stuff/Keyboard.fbx
   artifactKey: Guid(7335c31c4b6d07040a78d0496f6a46f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Angelo's Stuff/keyboard.fbx using Guid(7335c31c4b6d07040a78d0496f6a46f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90b0ab9b1eed377b348914ca6b07c84') in 0.022360 seconds
-  Import took 0.024433 seconds .
+Start importing Assets/Angelo's Stuff/Keyboard.fbx using Guid(7335c31c4b6d07040a78d0496f6a46f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bf55a20bdff2decb352baf4cec8b2f') in 0.022052 seconds
+  Import took 0.024316 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Angelo's Stuff/table.fbx
+  Time since last request: 0.000220 seconds.
+  path: Assets/Angelo's Stuff/Table.fbx
   artifactKey: Guid(7897e19de916328418b7a5afe4fd98b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Angelo's Stuff/table.fbx using Guid(7897e19de916328418b7a5afe4fd98b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105ef25adebece890f7e85827e6e88e2') in 0.020702 seconds
-  Import took 0.022747 seconds .
+Start importing Assets/Angelo's Stuff/Table.fbx using Guid(7897e19de916328418b7a5afe4fd98b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a3aea3b8f2be86ed77a20e49e8da9c') in 0.023829 seconds
+  Import took 0.025774 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 59.295307 seconds.
-  path: Assets/Dranielle's Stuff/Human.fbx
-  artifactKey: Guid(74431699ca423f24fb1b6f8156ef5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dranielle's Stuff/Human.fbx using Guid(74431699ca423f24fb1b6f8156ef5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd449c438c39fb7dbec2b5c5c9e5f3a0f') in 0.029674 seconds
-  Import took 0.032266 seconds .
+  Time since last request: 453.581768 seconds.
+  path: Assets/Angelo's Stuff/Chair.fbx
+  artifactKey: Guid(684eb6f8e7306fc4fa5d81a393736183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Angelo's Stuff/Chair.fbx using Guid(684eb6f8e7306fc4fa5d81a393736183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f8771716fd1cf2a9843625a31973b9') in 0.027548 seconds
+  Import took 0.030187 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001768 seconds.
-  path: Assets/Dranielle's Stuff/Human.fbx
-  artifactKey: Guid(74431699ca423f24fb1b6f8156ef5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dranielle's Stuff/Human.fbx using Guid(74431699ca423f24fb1b6f8156ef5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd449c438c39fb7dbec2b5c5c9e5f3a0f') in 0.028375 seconds
-  Import took 0.031096 seconds .
+  Time since last request: 0.000241 seconds.
+  path: Assets/Angelo's Stuff/Mouse.fbx
+  artifactKey: Guid(fad891b8373b3804393444cc803c5278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Angelo's Stuff/Mouse.fbx using Guid(fad891b8373b3804393444cc803c5278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2ae56ad38e4695bbf7e211acb62f30') in 0.021491 seconds
+  Import took 0.023532 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.939732 seconds.
-  path: Assets/Dranielle's Stuff
-  artifactKey: Guid(973822fb1faa55e4ba3cc78d97ac5020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dranielle's Stuff using Guid(973822fb1faa55e4ba3cc78d97ac5020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392a331a8beb06fede36e078c2e6a0f0') in 0.006798 seconds
-  Import took 0.009211 seconds .
+  Time since last request: 0.000220 seconds.
+  path: Assets/Angelo's Stuff/Monitor.fbx
+  artifactKey: Guid(d2259f8e2f498b640b0e20340509e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Angelo's Stuff/Monitor.fbx using Guid(d2259f8e2f498b640b0e20340509e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319547d9af8be700db7776a618d43e05') in 0.024518 seconds
+  Import took 0.026571 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.014952 seconds.
-  path: Assets/Dranielle's Stuff
-  artifactKey: Guid(973822fb1faa55e4ba3cc78d97ac5020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dranielle's Stuff using Guid(973822fb1faa55e4ba3cc78d97ac5020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392a331a8beb06fede36e078c2e6a0f0') in 0.002227 seconds
-  Import took 0.005247 seconds .
+  Time since last request: 0.000211 seconds.
+  path: Assets/Angelo's Stuff/Keyboard.fbx
+  artifactKey: Guid(7335c31c4b6d07040a78d0496f6a46f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Angelo's Stuff/Keyboard.fbx using Guid(7335c31c4b6d07040a78d0496f6a46f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317e1079381fa1f9804afaa93804832d') in 0.022789 seconds
+  Import took 0.025031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Angelo's Stuff/Table.fbx
+  artifactKey: Guid(7897e19de916328418b7a5afe4fd98b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Angelo's Stuff/Table.fbx using Guid(7897e19de916328418b7a5afe4fd98b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56cb991cad4dc8d75044e6d3f5b7eed1') in 0.020608 seconds
+  Import took 0.022502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001585 seconds.
+  path: Assets/Angelo's Stuff/Table.fbx
+  artifactKey: Guid(7897e19de916328418b7a5afe4fd98b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Angelo's Stuff/Table.fbx using Guid(7897e19de916328418b7a5afe4fd98b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56cb991cad4dc8d75044e6d3f5b7eed1') in 0.019922 seconds
+  Import took 0.022010 seconds .
 
