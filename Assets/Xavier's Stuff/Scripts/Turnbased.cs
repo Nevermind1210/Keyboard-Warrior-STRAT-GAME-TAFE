@@ -2,17 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Turnbased : MonoBehaviour
+namespace Xavier_s_Stuff
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+   public class Turnbased : MonoBehaviour
+   {
+      public string unitName;
+      public int unitLevel;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+      public int damage;
+
+      public int maxHP;
+      public int currentHP;
+   }
 }
