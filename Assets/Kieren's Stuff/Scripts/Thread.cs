@@ -22,13 +22,13 @@ namespace Kieran.TrollingGame
 
         private void Update()
         {
-            ThreadLimitText.text = ($"Thread limit {threadLimitCurrent}");
-            ThreadHPText.text = ($"Thread HP {threadHPCurrent}");
+            ThreadLimitText.text = ($"Thread limit \n{(int)threadLimitCurrent}");
+            ThreadHPText.text = ($"Thread HP \n{threadHPCurrent}");
         }
 
         private void FixedUpdate()
         {
-            threadLimitCurrent -= Time.fixedTime;
+            threadLimitCurrent -= Time.fixedDeltaTime;
 
             if(threadLimitCurrent <= 0)
             {
