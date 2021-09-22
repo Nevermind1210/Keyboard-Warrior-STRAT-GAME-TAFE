@@ -6,31 +6,27 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class Website : MonoBehaviour
+namespace Kieran.TrollingGame
 {
-	[SerializeField]
-		private class Board
+	public class Website : MonoBehaviour
+	{
+		// The name of the website.
+		[SerializeField] private String WebsiteName;
+		
+		// All the boards under this website.
+		[SerializeField] private List<Board> allBoardsOnWebsite;
+
+		private void Start()
 		{
-			[SerializeField] private int threadHP;
-			[SerializeField] private int peopleTrolledPerClick;
-			[SerializeField] private int simpsGainedOnDeath;
-			[SerializeField] private Button trollPeople;
-			[SerializeField] private Thread activeThread;
+			// Gets all boards in children, adds them as a list.
+			Board[] allBoardsOnWebsitetemp = GetComponentsInChildren<Board>();
 
-
-			public void CreateANewThread()
+			for(int i = 0; i < allBoardsOnWebsitetemp.Length; i++)
 			{
+				allBoardsOnWebsite.Add(allBoardsOnWebsitetemp[i]);
 			}
-
-		[SerializeField]
-		private class Thread
-		{
 			
+			// Make first board active and turn rest off.
 		}
 	}
-	
-	// The name of the website.
-	[SerializeField] private String WebsiteName;
-	// The count of the HPofTheThreads
-	[SerializeField] private int ThreadHP;
 }
