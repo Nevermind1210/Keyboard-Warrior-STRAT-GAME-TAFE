@@ -428,3 +428,60 @@ Received Import Request.
 Start importing Assets/Xavier's Stuff/Scripts/BattleSytem.cs using Guid(c60473645f0d4720aaa282745806e28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8313ed109b887a20fcf2e6f4323cce2e') in 0.346350 seconds
   Import took 0.349353 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 276.091668 seconds.
+  path: Assets/Xavier's Stuff/Prefab/Degenerate.prefab
+  artifactKey: Guid(128d310e2d38ab94fade3629f91cc490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xavier's Stuff/Prefab/Degenerate.prefab using Guid(128d310e2d38ab94fade3629f91cc490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fecf2b95c52d2b377ae1cea2cf45da97') in 0.079525 seconds
+  Import took 0.082538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.913715 seconds.
+  path: Assets/Xavier's Stuff/Prefab/Degenerate.prefab
+  artifactKey: Guid(128d310e2d38ab94fade3629f91cc490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xavier's Stuff/Prefab/Degenerate.prefab using Guid(128d310e2d38ab94fade3629f91cc490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8390dbeba56e7c1a99c35ded56d38dc4') in 0.076593 seconds
+  Import took 0.079595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.746731 seconds.
+  path: Assets/Xavier's Stuff/Prefab/Degenerate.prefab
+  artifactKey: Guid(128d310e2d38ab94fade3629f91cc490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xavier's Stuff/Prefab/Degenerate.prefab using Guid(128d310e2d38ab94fade3629f91cc490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f8c31c7ac412c52caec0e30f80bfc6') in 0.039985 seconds
+  Import took 0.043136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.808105 seconds.
+  path: Assets/Xavier's Stuff/Prefab/Degenerate.prefab
+  artifactKey: Guid(128d310e2d38ab94fade3629f91cc490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xavier's Stuff/Prefab/Degenerate.prefab using Guid(128d310e2d38ab94fade3629f91cc490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7b7b56ac53b463c95a919a620c7cf4') in 0.058253 seconds
+  Import took 0.060790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.564316 seconds.
+  path: Assets/Xavier's Stuff/Prefab/Degenerate.prefab
+  artifactKey: Guid(128d310e2d38ab94fade3629f91cc490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xavier's Stuff/Prefab/Degenerate.prefab using Guid(128d310e2d38ab94fade3629f91cc490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e8c5db0964a8624599c022db455b76') in 0.058070 seconds
+  Import took 0.061147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.019505 seconds.
+  path: Assets/Xavier's Stuff/Prefab/Degenerate.prefab
+  artifactKey: Guid(128d310e2d38ab94fade3629f91cc490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xavier's Stuff/Prefab/Degenerate.prefab using Guid(128d310e2d38ab94fade3629f91cc490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0394bb3f94b99e4cdcb52b6d0afab3a6') in 0.048524 seconds
+  Import took 0.051102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.761498 seconds.
+  path: Assets/Xavier's Stuff/Prefab/Degenerate.prefab
+  artifactKey: Guid(128d310e2d38ab94fade3629f91cc490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xavier's Stuff/Prefab/Degenerate.prefab using Guid(128d310e2d38ab94fade3629f91cc490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5914ad917492d808e9d858aed8c9366') in 0.051138 seconds
+  Import took 0.053734 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
