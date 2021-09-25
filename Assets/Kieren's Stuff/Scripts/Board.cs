@@ -24,6 +24,7 @@ namespace Kieran.TrollingGame
         [SerializeField] private int threadLimitMax;
         [SerializeField] private int threadHPMax;
         [Header("Details for each thread")]
+        [SerializeField] private int peopleTrolledPerClick;
         [SerializeField] private int peopleTrolledPerThread;
         
         private Thread activeThread;
@@ -56,12 +57,12 @@ namespace Kieran.TrollingGame
         // Change the amount of people trolled per click.
         private void ChangeTrollingAmountPerClick(int _peopleTrolledPerClick)
         {
-            peopleTrolledPerThread = _peopleTrolledPerClick;
+            peopleTrolledPerClick = _peopleTrolledPerClick;
         }
 
         public void TrollThread()
         {
-            activeThread.TrollThread(peopleTrolledPerThread);
+            activeThread.TrollThread(peopleTrolledPerClick);
         }
     }
 }

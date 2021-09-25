@@ -6722,8 +6722,9 @@ MonoBehaviour:
   threadLimitTextMeshPro: {fileID: 1444134499}
   threadHPTextMeshPro: {fileID: 1444134498}
   trollPeopleButton: {fileID: 1444134496}
-  threadLimitMax: 0
-  threadHPMax: 0
+  threadLimitMax: 15
+  threadHPMax: 50
+  peopleTrolledPerClick: 0
   peopleTrolledPerThread: 0
 --- !u!1 &383611382
 GameObject:
@@ -6868,9 +6869,10 @@ MonoBehaviour:
   threadLimitTextMeshPro: {fileID: 1442813131}
   threadHPTextMeshPro: {fileID: 1785501562}
   trollPeopleButton: {fileID: 4787609}
-  threadLimitMax: 18
+  threadLimitMax: 20
   threadHPMax: 5
-  peopleTrolledPerThread: 0
+  peopleTrolledPerClick: 1
+  peopleTrolledPerThread: 3
 --- !u!1 &639759272
 GameObject:
   m_ObjectHideFlags: 0
@@ -7743,9 +7745,10 @@ MonoBehaviour:
   threadLimitTextMeshPro: {fileID: 1432735913}
   threadHPTextMeshPro: {fileID: 1432735912}
   trollPeopleButton: {fileID: 1432735911}
-  threadLimitMax: 0
-  threadHPMax: 0
-  peopleTrolledPerThread: 0
+  threadLimitMax: 15
+  threadHPMax: 10
+  peopleTrolledPerClick: 1
+  peopleTrolledPerThread: 3
 --- !u!43 &1190717093
 Mesh:
   m_ObjectHideFlags: 0
@@ -8565,9 +8568,10 @@ MonoBehaviour:
   threadLimitTextMeshPro: {fileID: 829058859}
   threadHPTextMeshPro: {fileID: 829058858}
   trollPeopleButton: {fileID: 829058857}
-  threadLimitMax: 0
-  threadHPMax: 0
-  peopleTrolledPerThread: 0
+  threadLimitMax: 15
+  threadHPMax: 25
+  peopleTrolledPerClick: 1
+  peopleTrolledPerThread: 3
 --- !u!1 &1564704124 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2596984618439233202, guid: 0f0d727a6219400448d51bd4ace23aa1, type: 3}
