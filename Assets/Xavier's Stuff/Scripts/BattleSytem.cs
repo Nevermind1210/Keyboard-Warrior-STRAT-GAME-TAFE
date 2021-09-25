@@ -16,7 +16,10 @@ namespace Xavier_s_Stuff.Scripts
 
         private TextMeshProUGUI dialogueText;
         
+        // Unity notifications were giving me the shits sorry, you can delete when you see this. ^_^ ~Kieran
+    #pragma warning disable 414
         private BattleState state;
+    #pragma warning restore 414
         private void Start()
         {
             state = BattleState.START;

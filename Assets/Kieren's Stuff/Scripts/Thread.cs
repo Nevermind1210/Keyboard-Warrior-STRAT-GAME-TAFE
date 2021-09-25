@@ -16,14 +16,33 @@ namespace Kieran.TrollingGame
         [Header("The thread HP.")]
         [SerializeField] private int threadHPMax;
         [SerializeField] private int threadHPCurrent;
-        [Header("Text Boxes")]
-        [SerializeField] private TMP_Text ThreadLimitText;
-        [SerializeField] private TMP_Text ThreadHPText;
+        [Header("Is this the Current Thread.")]
+        [SerializeField] private bool currentThread = false;
+        // Text Boxes
+        private TMP_Text threadLimitText;
+        private TMP_Text threadHpText;
+        
+
+        private void Start()
+        {
+            threadLimitText = GameObject.FindGameObjectWithTag("ThreadLimitTextBox").GetComponent<TMP_Text>();
+            threadHpText = GameObject.FindGameObjectWithTag("ThreadHPTextBox").GetComponent<TMP_Text>();
+            currentThread = false;
+        }
+
+        // Change if the current thread is active.
+        public void ChangeIsCurrentThreadActive()
+        {
+            currentThread = currentThread == false;
+        }
 
         private void Update()
         {
-            ThreadLimitText.text = ($"Thread limit \n{(int)threadLimitCurrent}");
-            ThreadHPText.text = ($"Thread HP \n{threadHPCurrent}");
+            if(currentThread)
+            {
+                threadLimitText.text = ($"Thread limit \n{(int) threadLimitCurrent}");
+                threadHpText.text = ($"Thread HP \n{threadHPCurrent}");
+            }
         }
 
         private void FixedUpdate()
@@ -40,11 +59,10 @@ namespace Kieran.TrollingGame
         {
             threadHPCurrent = threadHPMax;
             threadLimitCurrent = threadLimitMax;
-            print("Thread not trolled, new thread");
         }
 
         /// <summary>
-        /// Setup the max Thread Limmit of the threads.
+        /// Setup the max Thread Limit of the threads.
         /// </summary>
         /// <param name="_threadLimitMax">Max Thread Limit of threads.</param>
         public void SetThreadLimit(float _threadLimitMax)
@@ -69,7 +87,6 @@ namespace Kieran.TrollingGame
 
             if(threadHPCurrent <= 0)
             {
-                print("Thread trolled, new thread");
                 // Thread Trolled.
                 threadHPCurrent = threadHPMax;
                 // If it has been trolled yet return true.
