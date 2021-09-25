@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
 using UnityEngine.UI;
@@ -16,33 +17,22 @@ namespace Kieran.TrollingGame
         [Header("The thread HP.")]
         [SerializeField] private int threadHPMax;
         [SerializeField] private int threadHPCurrent;
-        [Header("Is this the Current Thread.")]
-        [SerializeField] private bool currentThread = false;
         // Text Boxes
         private TMP_Text threadLimitText;
         private TMP_Text threadHpText;
         
-
-        private void Start()
+        
+        public void SetUpTextBoxes(TMP_Text _threadLimitText, TMP_Text _threadHpText)
         {
-            threadLimitText = GameObject.FindGameObjectWithTag("ThreadLimitTextBox").GetComponent<TMP_Text>();
-            threadHpText = GameObject.FindGameObjectWithTag("ThreadHPTextBox").GetComponent<TMP_Text>();
-            currentThread = false;
+            threadLimitText = _threadLimitText;
+            threadHpText = _threadHpText;
         }
-
-        // Change if the current thread is active.
-        public void ChangeIsCurrentThreadActive()
-        {
-            currentThread = currentThread == false;
-        }
-
+        
         private void Update()
         {
-            if(currentThread)
-            {
                 threadLimitText.text = ($"Thread limit \n{(int) threadLimitCurrent}");
                 threadHpText.text = ($"Thread HP \n{threadHPCurrent}");
-            }
+        
         }
 
         private void FixedUpdate()

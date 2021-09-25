@@ -26,7 +26,7 @@ namespace Kieran.TrollingGame
 			for(int i = 0; i < allBoardsOnWebsitetemp.Length; i++)
 			{
 				allBoardsOnWebsite.Add(allBoardsOnWebsitetemp[i]);
-				allBoardsOnWebsite[i].gameObject.SetActive(false);
+				allBoardsOnWebsite[i].TurnOffThread();
 			}
 			MakeThreadActive(0);
 		}
@@ -34,12 +34,7 @@ namespace Kieran.TrollingGame
 		private void MakeThreadActive(int i)
 		{
 			// Turns on the Game Object That Holds the thread.
-			allBoardsOnWebsite[i].gameObject.SetActive(true);
-			// Tells the thread it is active now.
-			allBoardsOnWebsite[i].ActiveThread.ChangeIsCurrentThreadActive();
-			// Removes all events from the current button and adds the ability to troll people on .this current thread.
-			// trollThreadButton.onClick.RemoveAllListeners();
-			// trollThreadButton.onClick.AddListener(allBoardsOnWebsite[i].TrollThread);
+			allBoardsOnWebsite[i].TurnOnThread();
 		}
 	}
 }

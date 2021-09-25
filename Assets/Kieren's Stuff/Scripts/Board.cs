@@ -10,12 +10,15 @@ namespace Kieran.TrollingGame
 {
     public class Board : MonoBehaviour
     {
+        [Header("If the thread is active")]
+        [SerializeField] bool isThreadActive;
         [Header("The Associated Board - Drag and drop")]
         [SerializeField] private GameObject boardGameObject;
         [SerializeField] private string boardName;
         [SerializeField] private TMP_Text boardNameTextMeshPro;
         [SerializeField] private TMP_Text threadLimitTextMeshPro;
         [SerializeField] private TMP_Text threadHPTextMeshPro;
+        [Header("Manually drag and drop - Set up ->TrollThread")] // For some reason this isn't normally working.
         [SerializeField] private Button trollPeopleButton;
         [Header("The MAX HP and Limit(Timer) of the thread")]
         [SerializeField] private int threadLimitMax;
@@ -30,21 +33,24 @@ namespace Kieran.TrollingGame
         {
             // Gets the thread attached in the children of this button.
             activeThread = GetComponentInChildren<Thread>();
-            SetUpButton();
-            
             // Sets the max variables of the thread.
             activeThread.SetThreadLimit(threadLimitMax);
             activeThread.SetThreadHP(threadHPMax);
+            
+            // Moves the thread text boxes to the thread.
+            activeThread.SetUpTextBoxes(threadLimitTextMeshPro,threadHPTextMeshPro);
         }
 
-        private void SetUpButton()
+        public void TurnOffThread()
         {
-            trollPeopleButton = GetComponentInChildren<Button>();
-            // Removes all funtionality of the button.
-            trollPeopleButton.onClick.RemoveAllListeners();
-            // Adds funtionalality to button to troll.
-            trollPeopleButton.onClick.AddListener(TrollThread);
-            
+            boardGameObject.SetActive(false);
+            isThreadActive = false;
+        }
+        
+        public void TurnOnThread()
+        {
+            boardGameObject.SetActive(true);
+            isThreadActive = true;
         }
 
         // Change the amount of people trolled per click.
