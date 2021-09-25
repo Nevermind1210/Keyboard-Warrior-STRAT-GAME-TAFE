@@ -32,12 +32,12 @@ namespace Kieran.TrollingGame
         {
                 threadLimitText.text = ($"Thread limit \n{(int) threadLimitCurrent}");
                 threadHpText.text = ($"Thread HP \n{threadHPCurrent}");
-        
+                LooseTime();
         }
 
-        private void FixedUpdate()
+        private void LooseTime()
         {
-            threadLimitCurrent -= Time.fixedDeltaTime;
+            threadLimitCurrent -= Time.deltaTime;
 
             if(threadLimitCurrent <= 0)
             {
@@ -78,7 +78,7 @@ namespace Kieran.TrollingGame
             if(threadHPCurrent <= 0)
             {
                 // Thread Trolled.
-                threadHPCurrent = threadHPMax;
+                ResetThread();
                 // If it has been trolled yet return true.
                 return true;
             }
