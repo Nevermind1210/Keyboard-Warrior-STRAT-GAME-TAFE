@@ -17,13 +17,8 @@ namespace Kieran.TrollingGame
 		// All the boards under this website.
 		[SerializeField] private List<Board> allBoardsOnWebsite;
 		
-		// Button to troll thread.
-		[SerializeField] private Button trollThreadButton;
-
 		private void Start()
 		{
-			// Get the troll thread 
-			trollThreadButton = GameObject.FindGameObjectWithTag("TrollThreadButton").GetComponent<Button>();
 			// Gets all boards in children, adds them as a list.
 			Board[] allBoardsOnWebsitetemp = GetComponentsInChildren<Board>();
 
@@ -43,8 +38,8 @@ namespace Kieran.TrollingGame
 			// Tells the thread it is active now.
 			allBoardsOnWebsite[i].ActiveThread.ChangeIsCurrentThreadActive();
 			// Removes all events from the current button and adds the ability to troll people on .this current thread.
-			trollThreadButton.onClick.RemoveAllListeners();
-			trollThreadButton.onClick.AddListener(allBoardsOnWebsite[i].TrollThread);
+			// trollThreadButton.onClick.RemoveAllListeners();
+			// trollThreadButton.onClick.AddListener(allBoardsOnWebsite[i].TrollThread);
 		}
 	}
 }
