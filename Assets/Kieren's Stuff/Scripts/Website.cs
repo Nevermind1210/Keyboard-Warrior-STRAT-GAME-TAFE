@@ -17,8 +17,12 @@ namespace Kieran.TrollingGame
 		// All the boards under this website.
 		[SerializeField] private List<Board> allBoardsOnWebsite;
 		
+		private TrollingManager trollingManager;
+		
 		private void Start()
 		{
+			trollingManager = FindObjectOfType<TrollingManager>();
+			
 			// Gets all boards in children, adds them as a list.
 			Board[] allBoardsOnWebsitetemp = GetComponentsInChildren<Board>();
 
@@ -26,6 +30,7 @@ namespace Kieran.TrollingGame
 			for(int i = 0; i < allBoardsOnWebsitetemp.Length; i++)
 			{
 				allBoardsOnWebsite.Add(allBoardsOnWebsitetemp[i]);
+				allBoardsOnWebsite[i].AddWebsite(this);
 				allBoardsOnWebsite[i].TurnOffThread();
 			}
 			MakeThreadActive(0);
@@ -35,6 +40,11 @@ namespace Kieran.TrollingGame
 		{
 			// Turns on the Game Object That Holds the thread.
 			allBoardsOnWebsite[i].TurnOnThread();
+		}
+
+		public void ThreadCompleteAddTrolled(int _amountOfPeopleTrolled)
+		{
+			trollingManager.TrollPerson(_amountOfPeopleTrolled);
 		}
 	}
 }
