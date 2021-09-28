@@ -11,9 +11,11 @@ namespace Kieran.TrollingGame
         [Header("The Associated Board - Drag and drop")]
         [SerializeField] private GameObject boardGameObject;
         [SerializeField] private string boardName;
-        [SerializeField] private TMP_Text boardNameTextMeshPro;
         [SerializeField] private TMP_Text threadLimitTextMeshPro;
         [SerializeField] private TMP_Text threadHPTextMeshPro;
+        [SerializeField] private Image threadImagePanel;
+        [SerializeField] private Sprite[] imagesToUseForThread;
+        private int currentImage = 0;
         [Header("Manually drag and drop - Set up ->TrollThread")] // For some reason this isn't normally working.
         [SerializeField] private Button trollPeopleButton;
         [Header("The MAX HP and Limit(Timer) of the thread")]
@@ -38,7 +40,7 @@ namespace Kieran.TrollingGame
             this.websiteAttached = _websiteAttached;
         }
         public Thread ActiveThread => activeThread;
-
+        
         private void Awake()
         {
             // Gets the thread attached in the children of this button.
@@ -49,8 +51,54 @@ namespace Kieran.TrollingGame
             
             // Moves the thread text boxes to the thread.
             activeThread.SetUpTextBoxes(threadLimitTextMeshPro,threadHPTextMeshPro);
-            // This will ensure the board name has the right name.
-            boardNameTextMeshPro.text = ($"{boardName}");
+            
+            // Change the thread on start up
+            ChangeThread();
+        }
+
+        private void ChangeThread()
+        {
+            int tempX = Random.Range(0, imagesToUseForThread.Length-1);
+
+            // If the number is top or bottom of the array or equal to the number, change it to 1 up or 1 down.
+            if (tempX == currentImage)
+            {
+                if(tempX == imagesToUseForThread.Length-1)
+                {
+                    if(Random.Range(0, 1) > 0)
+                    {
+                        tempX = imagesToUseForThread.Length - 2;
+                    }
+                    else
+                    {
+                        tempX = 0;
+                    }
+                }
+                else if(tempX == 0)
+                {
+                    if(Random.Range(0, 1) > 0)
+                    {
+                        tempX = 1;
+                    }
+                    else
+                    {
+                        tempX = imagesToUseForThread.Length-1;
+                    }
+                }
+                else
+                {
+                    if(Random.Range(0, 1) > 0)
+                    {
+                        tempX++;
+                    }
+                    else
+                    {
+                        tempX--;
+                    }
+                }
+            }
+            currentImage = tempX;
+            threadImagePanel.sprite = imagesToUseForThread[currentImage];
         }
 
         public void TurnOffThread()
@@ -79,6 +127,7 @@ namespace Kieran.TrollingGame
         private void ThreadComplete()
         {
             websiteAttached.ThreadCompleteAddTrolled(peopleTrolledPerThread);
+            ChangeThread();
         }
     }
 }

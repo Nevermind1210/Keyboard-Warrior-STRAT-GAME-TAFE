@@ -16,6 +16,7 @@ namespace Kieran.TrollingGame
 		
 		// All the boards under this website.
 		[SerializeField] private List<Board> allBoardsOnWebsite;
+		[SerializeField] private GameObject websiteHomePage;
 		
 		private TrollingManager trollingManager;
 		
@@ -33,13 +34,31 @@ namespace Kieran.TrollingGame
 				allBoardsOnWebsite[i].AddWebsite(this);
 				allBoardsOnWebsite[i].TurnOffThread();
 			}
-			MakeThreadActive(0);
+			
+			// Turns on the Game Object That Holds the thread.
+			websiteHomePage.SetActive(true);
 		}
 
-		private void MakeThreadActive(int i)
+		public void MakeThreadActive(int i)
 		{
 			// Turns on the Game Object That Holds the thread.
 			allBoardsOnWebsite[i].TurnOnThread();
+			websiteHomePage.SetActive(false);
+		}
+		
+		public void GoHome()
+		{
+			// Gets all boards in children, adds them as a list.
+			Board[] allBoardsOnWebsitetemp = GetComponentsInChildren<Board>();
+			
+			// Turns off all threads.
+			for(int i = 0; i < allBoardsOnWebsitetemp.Length; i++)
+			{
+				allBoardsOnWebsite[i].TurnOffThread();
+			}
+
+			// Turns on the Game Object That Holds the thread.
+			websiteHomePage.SetActive(true);
 		}
 
 		public void ThreadCompleteAddTrolled(int _amountOfPeopleTrolled)
