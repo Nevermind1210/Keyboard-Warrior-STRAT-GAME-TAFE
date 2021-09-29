@@ -6541,7 +6541,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 280007656}
   m_LocalRotation: {x: -1.9871775e-17, y: 1, z: 2.6167081e-17, w: -0.000000026077027}
-  m_LocalPosition: {x: 0, y: 0, z: 0.025999995}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0205}
   m_LocalScale: {x: 0.20000002, y: 0.19999999, z: 1}
   m_Children: []
   m_Father: {fileID: 856513825}
@@ -6549,7 +6549,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.4, y: -0.014}
+  m_AnchoredPosition: {x: -0.3798, y: -0.0332}
   m_SizeDelta: {x: 1.4642, y: 0.393}
   m_Pivot: {x: 1, y: 1}
 --- !u!1 &289290987
@@ -6562,6 +6562,7 @@ GameObject:
   m_Component:
   - component: {fileID: 289290988}
   - component: {fileID: 289290989}
+  - component: {fileID: 289290990}
   m_Layer: 0
   m_Name: Manager - Board - /fit/
   m_TagString: Untagged
@@ -6616,6 +6617,33 @@ MonoBehaviour:
   threadHPMax: 50
   peopleTrolledPerClick: 0
   peopleTrolledPerThread: 0
+--- !u!114 &289290990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289290987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a4ced3e45756a4c8a58ffaa0ca41e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boardButton: {fileID: 1346510483}
+  shitpostingPassToBuy: {fileID: 1336591803}
+  helpersToBuy:
+  - {fileID: 1359698241}
+  - {fileID: 1749451287}
+  - {fileID: 325723244}
+  shitpostingPassCost: 10000
+  trollingCounter: {fileID: 667904632}
+  trollsPanel: {fileID: 1952044623}
+  isThisBoardActiveOnLaunch: 0
+--- !u!1 &290283577 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1126157278997371714, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+  m_PrefabInstance: {fileID: 1066502624}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &309208201
 GameObject:
   m_ObjectHideFlags: 0
@@ -6885,6 +6913,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 320077968}
   m_CullTransparentMesh: 1
+--- !u!1 &325723244 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1126157278997371714, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+  m_PrefabInstance: {fileID: 331393756}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &331393756
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6906,7 +6939,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1126157278831609240, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0.070176
+      value: 0.093568
       objectReference: {fileID: 0}
     - target: {fileID: 1126157278831609240, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6914,11 +6947,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1126157278831609240, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.10526399
+      value: -0.046784
       objectReference: {fileID: 0}
     - target: {fileID: 1126157278831609243, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_Name
-      value: /gif/ - Troll 1
+      value: /fit/ - Troll 1
       objectReference: {fileID: 0}
     - target: {fileID: 1126157278831609243, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_IsActive
@@ -6938,7 +6971,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1126157278943644630, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0.070176
+      value: 0.093568
       objectReference: {fileID: 0}
     - target: {fileID: 1126157278943644630, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6946,11 +6979,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1126157278943644630, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.17544
+      value: -0.140352
       objectReference: {fileID: 0}
     - target: {fileID: 1126157278943644633, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_Name
-      value: /gif/ - Troll 2
+      value: /fit/ - Troll 2
       objectReference: {fileID: 0}
     - target: {fileID: 1126157278943644633, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_IsActive
@@ -6958,7 +6991,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1126157278997371714, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_Name
-      value: /gif/ - Troll 3
+      value: Take Down 4chan
       objectReference: {fileID: 0}
     - target: {fileID: 1126157278997371714, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_IsActive
@@ -6978,7 +7011,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1126157278997371715, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0.070176
+      value: 0.093568
       objectReference: {fileID: 0}
     - target: {fileID: 1126157278997371715, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6986,11 +7019,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1126157278997371715, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.24561599
+      value: -0.23392
+      objectReference: {fileID: 0}
+    - target: {fileID: 1126157279999461343, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_text
+      value: Take Down 4chan
       objectReference: {fileID: 0}
     - target: {fileID: 1126157280211806492, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_Name
-      value: /gif/ - Trolls List
+      value: /fit/ - Trolls List
       objectReference: {fileID: 0}
     - target: {fileID: 1126157280211806492, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_IsActive
@@ -7082,11 +7119,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3687156468021321048, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_Name
-      value: /gif/ - Shitposting Pass
+      value: /fit/ - Shitposting Pass
+      objectReference: {fileID: 0}
+    - target: {fileID: 3687156468021321048, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4813707836530263900, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_text
       value: /gif/ Shitposting Pass
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 289290990}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShitPostingPass
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Kieran.TrollingGame.BoardHelpers, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8635529238472598285, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_AnchorMax.y
@@ -7114,6 +7183,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+--- !u!1 &345168997 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1126157278831609243, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+  m_PrefabInstance: {fileID: 1378439522}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &383611382
 GameObject:
   m_ObjectHideFlags: 0
@@ -7164,6 +7238,16 @@ MonoBehaviour:
   WebsiteName: 4 Chan
   allBoardsOnWebsite: []
   websiteHomePage: {fileID: 675206493}
+--- !u!1 &418461084 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1126157278831609243, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+  m_PrefabInstance: {fileID: 1066502624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &529565521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1126157278943644633, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+  m_PrefabInstance: {fileID: 1378439522}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &547677349
 GameObject:
   m_ObjectHideFlags: 0
@@ -7217,6 +7301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 550265349}
   - component: {fileID: 550265350}
+  - component: {fileID: 550265351}
   m_Layer: 0
   m_Name: Manager - Board - /v/
   m_TagString: Untagged
@@ -7270,6 +7355,28 @@ MonoBehaviour:
   threadHPMax: 15
   peopleTrolledPerClick: 1
   peopleTrolledPerThread: 3
+--- !u!114 &550265351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550265348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a4ced3e45756a4c8a58ffaa0ca41e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boardButton: {fileID: 1764076936}
+  shitpostingPassToBuy: {fileID: 1308466000}
+  helpersToBuy:
+  - {fileID: 1955906410}
+  - {fileID: 1234163191}
+  - {fileID: 1125788550}
+  shitpostingPassCost: 0
+  trollingCounter: {fileID: 667904632}
+  trollsPanel: {fileID: 21437698}
+  isThisBoardActiveOnLaunch: 1
 --- !u!1 &552854378 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1126157280211806492, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
@@ -7619,7 +7726,7 @@ GameObject:
   - component: {fileID: 769168390}
   - component: {fileID: 769168389}
   m_Layer: 5
-  m_Name: /gif/ Button
+  m_Name: /fit/ Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7828,7 +7935,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh15992
+  m_Name: pb_Mesh18664
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8216,6 +8323,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &832490077 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1126157278997371714, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+  m_PrefabInstance: {fileID: 1378439522}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &856513825 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8937876659623471429, guid: 128d310e2d38ab94fade3629f91cc490, type: 3}
@@ -9334,6 +9446,34 @@ PrefabInstance:
       propertyPath: m_text
       value: /b/ Shitposting Pass
       objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1554013540}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShitPostingPass
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Kieran.TrollingGame.BoardHelpers, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8635529238472598285, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -9370,6 +9510,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1086002257}
   - component: {fileID: 1086002258}
+  - component: {fileID: 1086002259}
   m_Layer: 0
   m_Name: Manager - Board - /pol/
   m_TagString: Untagged
@@ -9424,6 +9565,33 @@ MonoBehaviour:
   threadHPMax: 10
   peopleTrolledPerClick: 1
   peopleTrolledPerThread: 3
+--- !u!114 &1086002259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086002256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a4ced3e45756a4c8a58ffaa0ca41e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boardButton: {fileID: 1210088339}
+  shitpostingPassToBuy: {fileID: 1369525419}
+  helpersToBuy:
+  - {fileID: 345168997}
+  - {fileID: 529565521}
+  - {fileID: 832490077}
+  shitpostingPassCost: 500
+  trollingCounter: {fileID: 667904632}
+  trollsPanel: {fileID: 552854378}
+  isThisBoardActiveOnLaunch: 0
+--- !u!1 &1125788550 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1126157278997371714, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+  m_PrefabInstance: {fileID: 1126157280232453150}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1150509111
 GameObject:
   m_ObjectHideFlags: 0
@@ -9807,7 +9975,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh15842
+  m_Name: pb_Mesh18514
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10098,6 +10266,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1210088337}
   m_CullTransparentMesh: 1
+--- !u!1 &1234163191 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1126157278943644633, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+  m_PrefabInstance: {fileID: 1126157280232453150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1308466000 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3687156468021321048, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+  m_PrefabInstance: {fileID: 1126157280232453150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1336591803 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3687156468021321048, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+  m_PrefabInstance: {fileID: 1066502624}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1346510481
 GameObject:
   m_ObjectHideFlags: 0
@@ -10231,6 +10414,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1346510481}
   m_CullTransparentMesh: 1
+--- !u!1 &1359698241 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1126157278831609243, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+  m_PrefabInstance: {fileID: 331393756}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1369525419 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3687156468021321048, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+  m_PrefabInstance: {fileID: 1378439522}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1375533010
 GameObject:
   m_ObjectHideFlags: 0
@@ -10463,6 +10656,34 @@ PrefabInstance:
     - target: {fileID: 4813707836530263900, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_text
       value: /pol/ Shitposting Pass
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1086002259}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShitPostingPass
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Kieran.TrollingGame.BoardHelpers, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8635529238472598285, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_AnchorMax.y
@@ -11208,6 +11429,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1554013538}
   - component: {fileID: 1554013539}
+  - component: {fileID: 1554013540}
   m_Layer: 0
   m_Name: Manager - Board - /b/
   m_TagString: Untagged
@@ -11262,6 +11484,28 @@ MonoBehaviour:
   threadHPMax: 25
   peopleTrolledPerClick: 1
   peopleTrolledPerThread: 3
+--- !u!114 &1554013540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554013537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a4ced3e45756a4c8a58ffaa0ca41e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boardButton: {fileID: 320077970}
+  shitpostingPassToBuy: {fileID: 1336591803}
+  helpersToBuy:
+  - {fileID: 418461084}
+  - {fileID: 2048659631}
+  - {fileID: 290283577}
+  shitpostingPassCost: 1800
+  trollingCounter: {fileID: 667904632}
+  trollsPanel: {fileID: 989911300}
+  isThisBoardActiveOnLaunch: 0
 --- !u!1 &1564704124 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1961031148472317868, guid: 128d310e2d38ab94fade3629f91cc490, type: 3}
@@ -12005,6 +12249,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1744236299}
   m_CullTransparentMesh: 1
+--- !u!1 &1749451287 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1126157278943644633, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+  m_PrefabInstance: {fileID: 331393756}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1764076934
 GameObject:
   m_ObjectHideFlags: 0
@@ -12158,6 +12407,11 @@ GameObject:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1126157280211806493, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
   m_PrefabInstance: {fileID: 331393756}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1955906410 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1126157278831609243, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+  m_PrefabInstance: {fileID: 1126157280232453150}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1990591076
 GameObject:
@@ -12417,7 +12671,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh16144
+  m_Name: pb_Mesh18818
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -12575,6 +12829,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &2048659631 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1126157278943644633, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+  m_PrefabInstance: {fileID: 1066502624}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2050165758
 GameObject:
   m_ObjectHideFlags: 0
@@ -12839,6 +13098,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1529648738076506251, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529648738076506251, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529648738076506251, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529648738076506251, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529648738076506251, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529648738076506251, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3687156468021321048, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_Name
       value: /v/ - Shitposting Pass
@@ -12850,6 +13133,34 @@ PrefabInstance:
     - target: {fileID: 4813707836530263900, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_text
       value: /v/ Shitposting Pass
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 550265351}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShitPostingPass
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Kieran.TrollingGame.BoardHelpers, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742278439784270939, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8635529238472598285, guid: 4b24883885a3a2b409a39873cf00cf87, type: 3}
       propertyPath: m_AnchorMax.y

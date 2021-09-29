@@ -13,11 +13,10 @@ namespace Kieran.TrollingGame
 	{
 		// The name of the website.
 		[SerializeField] private String WebsiteName;
-		
 		// All the boards under this website.
 		[SerializeField] private List<Board> allBoardsOnWebsite;
 		[SerializeField] private GameObject websiteHomePage;
-		
+		// Linked Manager.
 		private TrollingManager trollingManager;
 		
 		private void Start()
