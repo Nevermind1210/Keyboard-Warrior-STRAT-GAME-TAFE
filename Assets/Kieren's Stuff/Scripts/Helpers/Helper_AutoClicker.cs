@@ -34,7 +34,7 @@ namespace Kieran.TrollingGame.Helpers
 
             BuyHelper.interactable = false;
 
-            LevelOutput.text=("Level: " + Level);
+            LevelOutput.text=("Lvl " + Level);
             CostOutput.text =("$$" + cost.ToString("N0"));
 
             StartCoroutine(FarmingClicks());
@@ -53,7 +53,7 @@ namespace Kieran.TrollingGame.Helpers
                 trollingCounter.DecreasePeopleTrolled(cost);
                 Level++;
                 cost= (Mathf.RoundToInt(initialCost * (Mathf.Pow(costIncrease, Level))));
-                LevelOutput.text = ("Level: " + Level);
+                LevelOutput.text = ("Lvl " + Level);
                 CostOutput.text = ("$$" + cost.ToString("N0"));
             }
         }
@@ -65,7 +65,7 @@ namespace Kieran.TrollingGame.Helpers
         {
             while (true)
             {
-                yield return new WaitForSeconds(2.02f - Level*0.3f);
+                yield return new WaitForSeconds(2.02f - Level*0.19f);
                 linkedBoard.TrollThread();
             }
         }
