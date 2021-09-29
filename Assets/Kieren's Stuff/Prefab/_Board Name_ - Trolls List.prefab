@@ -76,7 +76,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 200
+  m_PixelsPerUnitMultiplier: 500
 --- !u!114 &1126157278831609241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -465,7 +465,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 200
+  m_PixelsPerUnitMultiplier: 500
 --- !u!114 &1126157278943644631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -586,7 +586,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 200
+  m_PixelsPerUnitMultiplier: 500
 --- !u!114 &1126157278997371712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -845,7 +845,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1000
+  m_PixelsPerUnitMultiplier: 10000
 --- !u!114 &1126157280211806491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -968,7 +968,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 200
+  m_PixelsPerUnitMultiplier: 500
 --- !u!114 &6742278439784270939
 MonoBehaviour:
   m_ObjectHideFlags: 0

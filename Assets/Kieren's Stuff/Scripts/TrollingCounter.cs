@@ -26,7 +26,7 @@ namespace Kieran.TrollingGame
         // Update is called once per frame
         void Update()
         {
-            trolledCountTM.text=($"People Trolled {PeopleTrolled}");
+            trolledCountTM.text=($"$$ {PeopleTrolled}");
         }
 
         /// <summary>

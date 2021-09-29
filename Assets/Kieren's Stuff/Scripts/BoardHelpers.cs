@@ -24,7 +24,7 @@ namespace Kieran.TrollingGame
             // Turns on the panel.
             trollsPanel.SetActive(true);
             // Sets the buy pass on or off.
-            shitpostingPassToBuy.SetActive(isThisBoardActiveOnLaunch);
+            shitpostingPassToBuy.SetActive(!isThisBoardActiveOnLaunch);
             // Sets the buy helpers on or off.
             foreach(var powerButton in helpersToBuy)
             {
