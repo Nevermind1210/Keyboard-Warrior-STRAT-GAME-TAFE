@@ -9,10 +9,10 @@ namespace Kieran.TrollingGame.Helpers
 {
     public class Helper_AutoClicker : MonoBehaviour
     {
-    
         // cost and level and current money
-        private int Level = 0;
-        private int cost;
+        [Header("Read Only (you)")]
+        [SerializeField] private int Level = 0;
+        [SerializeField] private int cost;
     
         [Header("Drag these Suckers in, Cause I ain't coding it Chief")]
         [SerializeField] private Board linkedBoard;
