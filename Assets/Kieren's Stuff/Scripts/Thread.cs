@@ -30,14 +30,14 @@ namespace Kieran.TrollingGame
         
         private void Update()
         {
-                threadLimitText.text = ($"Thread limit {(int) threadLimitCurrent}");
+                threadLimitText.text = ($"Thread limit {(int) (threadLimitCurrent)}");
                 threadHpText.text = ($"Thread HP {threadHPCurrent}");
                 LooseTime();
         }
 
         private void LooseTime()
         {
-            threadLimitCurrent -= Time.deltaTime;
+            threadLimitCurrent -= Time.deltaTime*5;
 
             if(threadLimitCurrent <= 0)
             {
