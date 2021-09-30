@@ -5,18 +5,13 @@ using Kieran.TrollingGame;
 
 namespace Kieran.TrollingGame.Helpers
 {
-    public class Helper_DamagePerClick : MonoBehaviour
+    public class Helper_DamagePerClick : HelperBased
     {
-        // Start is called before the first frame update
-        void Start()
+        [Header("Balance for this Helper")]
+        [SerializeField] private int increaseDamagePerLevel;
+        protected override void LevelUp()
         {
-        
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-        
-        }
+            linkedBoard.IncreaseDamagePerClick(increaseDamagePerLevel);
+        } 
     }
 }

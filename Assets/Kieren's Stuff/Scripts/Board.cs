@@ -129,5 +129,17 @@ namespace Kieran.TrollingGame
             websiteAttached.ThreadCompleteAddTrolled(peopleTrolledPerThread);
             ChangeThread();
         }
+
+        /// <summary> Increase Damage Per Click By 1. </summary>
+        public void IncreaseDamagePerClick(int _i)
+        {
+            peopleTrolledPerClick += _i;
+        }
+        
+        /// <summary> Increase Damage Per Click By 1. </summary>
+        public void IncreasePeopleTrolledPerThread(int _i)
+        {
+            peopleTrolledPerThread += _i;
+        }
     }
 }

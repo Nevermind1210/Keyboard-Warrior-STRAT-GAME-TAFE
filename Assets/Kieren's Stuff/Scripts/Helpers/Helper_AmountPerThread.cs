@@ -5,18 +5,13 @@ using Kieran.TrollingGame;
 
 namespace Kieran.TrollingGame.Helpers
 {
-    public class Helper_AmountPerThread : MonoBehaviour
+    public class Helper_AmountPerThread : HelperBased
     {
-        // Start is called before the first frame update
-        void Start()
+        [Header("Balance for this Helper")]
+        [SerializeField] private int increaseAmmountTrolledPerLevel;
+        protected override void LevelUp()
         {
-        
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-        
-        }
+            linkedBoard.IncreasePeopleTrolledPerThread(increaseAmmountTrolledPerLevel);
+        } 
     }
 }
