@@ -14,13 +14,20 @@ namespace Kieran.TrollingGame
         [Header("The thread Limit or time before thread resets.")]
         [SerializeField] private float threadLimitMax;
         [SerializeField] private float threadLimitCurrent;
+        [SerializeField] private Image threadbar;
         [Header("The thread HP.")]
-        [SerializeField] private int threadHPMax;
-        [SerializeField] private int threadHPCurrent;
+        [SerializeField] private float threadHPMax;
+        [SerializeField] private float threadHPCurrent;
+        [SerializeField] private Image healthbar;
         // Text Boxes
         private TMP_Text threadLimitText;
         private TMP_Text threadHpText;
         
+        void Start()
+        {
+            healthbar.fillAmount = 1;
+            threadbar.fillAmount = 1;
+        }
         
         public void SetUpTextBoxes(TMP_Text _threadLimitText, TMP_Text _threadHpText)
         {
@@ -38,7 +45,10 @@ namespace Kieran.TrollingGame
         private void LooseTime()
         {
             threadLimitCurrent -= Time.deltaTime*5;
-
+            
+            float fraction = threadLimitCurrent / threadLimitMax;
+            threadbar.fillAmount = fraction;
+            
             if(threadLimitCurrent <= 0)
             {
                 ResetThread();
@@ -74,7 +84,10 @@ namespace Kieran.TrollingGame
         {
             // Troll thread by ammount.
             threadHPCurrent -= _threadTrolledAmount;
-
+            
+            float fraction = threadHPCurrent / threadHPMax;
+            healthbar.fillAmount = fraction;
+            
             if(threadHPCurrent <= 0)
             {
                 // Thread Trolled.
