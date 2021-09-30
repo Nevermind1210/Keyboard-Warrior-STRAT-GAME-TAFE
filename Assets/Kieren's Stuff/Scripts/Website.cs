@@ -18,6 +18,7 @@ namespace Kieran.TrollingGame
 		[SerializeField] private GameObject websiteHomePage;
 		// Linked Manager.
 		private TrollingManager trollingManager;
+		[SerializeField] private ParticleSystem particleSystemPlay;
 		
 		private void Start()
 		{

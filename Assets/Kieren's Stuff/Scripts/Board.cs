@@ -15,6 +15,7 @@ namespace Kieran.TrollingGame
         [SerializeField] private TMP_Text threadHPTextMeshPro;
         [SerializeField] private Image threadImagePanel;
         [SerializeField] private Sprite[] imagesToUseForThread;
+        [SerializeField] private ParticleSystem particleSystemPlay;
         private int currentImage = 0;
         [Header("Manually drag and drop - Set up ->TrollThread")] // For some reason this isn't normally working.
         [SerializeField] private Button trollPeopleButton;
@@ -128,6 +129,7 @@ namespace Kieran.TrollingGame
         {
             websiteAttached.ThreadCompleteAddTrolled(peopleTrolledPerThread);
             ChangeThread();
+            particleSystemPlay.Play();
         }
 
         /// <summary> Increase Damage Per Click By 1. </summary>
