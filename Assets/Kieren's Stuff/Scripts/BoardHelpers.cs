@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,6 +12,7 @@ namespace Kieran.TrollingGame
         [SerializeField] private Button boardButton;
         [SerializeField] private GameObject shitpostingPassToBuy;
         [SerializeField] private GameObject[] helpersToBuy;
+        [SerializeField] private TMP_Text shitpostCostTMP;
         [Header("Balance Numbers.")]
         [SerializeField] private int shitpostingPassCost;
         [Header("Managers --> Drag In Plz <--")] 
@@ -23,6 +25,7 @@ namespace Kieran.TrollingGame
         {
             // Turns on the panel.
             trollsPanel.SetActive(true);
+            shitpostCostTMP.text = ("$$" + shitpostingPassCost.ToString("N0"));
             // Sets the buy pass on or off.
             shitpostingPassToBuy.SetActive(!isThisBoardActiveOnLaunch);
             // Sets the buy helpers on or off.

@@ -423,7 +423,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6602765618646164644, guid: 9334a4e7dca7bcf48b7be171aed81d90, type: 3}
       propertyPath: m_Name
-      value: <Board Name> - Troll 2
+      value: <Board Name> - Troll 2 - Auto Clicker
       objectReference: {fileID: 0}
     - target: {fileID: 6602765618646164647, guid: 9334a4e7dca7bcf48b7be171aed81d90, type: 3}
       propertyPath: m_Pivot.x
@@ -557,7 +557,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6602765618646164644, guid: 9334a4e7dca7bcf48b7be171aed81d90, type: 3}
       propertyPath: m_Name
-      value: <Board Name> - Troll 3
+      value: <Board Name> - Troll 3 - Money Increaser
       objectReference: {fileID: 0}
     - target: {fileID: 6602765618646164647, guid: 9334a4e7dca7bcf48b7be171aed81d90, type: 3}
       propertyPath: m_Pivot.x
@@ -691,7 +691,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6602765618646164644, guid: 9334a4e7dca7bcf48b7be171aed81d90, type: 3}
       propertyPath: m_Name
-      value: <Board Name> - Troll 1
+      value: <Board Name> - Troll 1 - Click DMG
       objectReference: {fileID: 0}
     - target: {fileID: 6602765618646164647, guid: 9334a4e7dca7bcf48b7be171aed81d90, type: 3}
       propertyPath: m_Pivot.x
