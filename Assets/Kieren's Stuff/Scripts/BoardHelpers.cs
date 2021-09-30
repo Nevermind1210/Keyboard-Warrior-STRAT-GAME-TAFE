@@ -48,14 +48,15 @@ namespace Kieran.TrollingGame
                 // Here is the money.
                 trollingCounter.DecreasePeopleTrolled(shitpostingPassCost);
                 // Here is the thing.
-                shitpostingPassToBuy.SetActive(isThisBoardActiveOnLaunch);
+                shitpostingPassToBuy.SetActive(false);
                 // Here is the option to buy more things for the thing.
                 foreach(var powerButton in helpersToBuy)
                 {
-                    powerButton.SetActive(isThisBoardActiveOnLaunch);
+                    powerButton.SetActive(true);
                 }
                 // Here is access to the thing.
-                trollsPanel.SetActive(isThisBoardActiveOnLaunch);
+                trollsPanel.SetActive(true);
+                boardButton.interactable = true;
             }
             // If you don't have enough money.
             else
